@@ -2,10 +2,10 @@
   if (typeof define === 'function' && define.amd) {
     define(['china-unit-num'], factory)
   } else if (typeof exports === 'object') {
-    module.exports = factory
+    module.exports = factory()
   } else {
     if (window) {
-      window.chinaUnitNum = factory
+      window.chinaUnitNum = factory()
     }
   }
 })(function () {
