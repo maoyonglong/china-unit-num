@@ -6,9 +6,19 @@
   "author": "maoyonglong",
   "license": "MIT",
   "scripts": {
-    "build": "npx uglifyjs --compress --mangle --output china-unit-num.min.js -- china-unit-num.js"
+    "build": "npx uglifyjs --compress --mangle --output china-unit-num.min.js -- china-unit-num.js",
+    "publish": "npm publish --registry https://registry.npmjs.org"
+  },
+  "homepage": "https://github.com/maoyonglong/china-unit-num",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maoyonglong/china-unit-num.git"
   },
   "devDependencies": {
     "uglify-js": "^3.8.0"
-  }
+  },
+  "keywords": [
+    "chinese",
+    "number"
+  ]
 }
