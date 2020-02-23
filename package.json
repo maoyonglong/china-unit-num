@@ -1,0 +1,14 @@
+{
+  "name": "china-unit-num",
+  "version": "1.0.0",
+  "description": "",
+  "main": "china-unit-num.js",
+  "author": "maoyonglong",
+  "license": "MIT",
+  "scripts": {
+    "build": "npx uglifyjs --compress --mangle --output china-unit-num.min.js -- china-unit-num.js"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.8.0"
+  }
+}
