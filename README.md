@@ -1,6 +1,22 @@
 # china-unit-num
 将阿拉伯数字转成带中文单位的数字，比如**100**转成**1百**
 
+# 引入
+直接使用
+```html
+<script src="path/to/china-unit-num.min.js"></script>
+```
+commonjs
+```js
+const chinaUnitNum = require('china-unit-num')
+```
+amd
+```js
+require(['china-unit-num'], function (chinaUnitNum) {
+  // code
+})
+```
+
 # usage
 ```js
 chinaUnitNum(100) // => 1百
